@@ -4,59 +4,60 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Chat bot UI</title>
     <link rel="stylesheet" href="./index.css" />
   </head>
   <body>
     <div id="mainContainer">
       <div id="topContainer">
-        <div>IRIS</div>
-        <div>
+        <div class="topContainerText commonAnimation">IRIS</div>
+        <div class="topContainerText commonAnimation">
           <span>Hello</span>
           <img src="./images/handshow.svg" id="handShow" />
         </div>
-        <p>I am Iris, a Virtual Assistant How may I help you?</p>
-        <div>
+        <p class="topContainerText commonAnimation">
+          I am Iris, a Virtual Assistant How may I help you?
+        </p>
+        <div class="topContainerText commonAnimation">
           <img src="./images/Vector.svg" />
         </div>
       </div>
-      <div id="floatContainer">
+      <div id="floatContainer" class="floatContainerFirst commonAnimation">
         <div>
-          <span>Frequently Asked Questions</span>
+          <span class="floatContainerFirst">Frequently Asked Questions</span>
           <div id="questionContainer">?</div>
         </div>
-        <div class="faqs">
-          <div>
+        <div class="faqs commonAnimation">
+          <div class="commonAnimation">
             <div class="outerCircle">
               <div class="innerCircle"></div>
             </div>
             <div>Can I redeem my FB before the original term?</div>
           </div>
-          <div>
+          <div class="commonAnimation">
             <div class="outerCircle">
               <div class="innerCircle"></div>
             </div>
             <div>How do I pay my Credit card bill?</div>
           </div>
-          <div>
+          <div class="commonAnimation">
             <div class="outerCircle">
               <div class="innerCircle"></div>
             </div>
             <div>How can I get my Account Statement?</div>
           </div>
-          <div>
+          <div class="commonAnimation">
             <div class="outerCircle">
               <div class="innerCircle"></div>
             </div>
             <div>What is the tenure of Fixed Deposit?</div>
           </div>
         </div>
-        <div id="bottomButton">
+        <div id="bottomButton" class="commonAnimation">
           <img src="./images/messageicon.svg" alt="messageicon" />
           <div>Start a New Conversation</div>
         </div>
       </div>
     </div>
-    <script src="index.js"></script>
   </body>
 </html>
